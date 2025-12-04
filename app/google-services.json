@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "898739488677",
+    "project_id": "mathematicsclassproject",
+    "storage_bucket": "mathematicsclassproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898739488677:android:f4249c8145fe4510f78a4c",
+        "android_client_info": {
+          "package_name": "com.example.mathematicsclassproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrz85fQNI5JaK_A4B-tPoW013fjcoLZAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

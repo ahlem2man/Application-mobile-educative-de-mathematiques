@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20.80dp"
+    android:layout_marginTop="10.48dp"
+    android:layout_marginEnd="20.80dp"
+    android:layout_marginBottom="10.40dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/first"
+    app:cardCornerRadius="19.50dp"
+    app:cardElevation="13.00dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="52.00dp"
+            android:layout_height="52.00dp"
+            android:layout_marginStart="20.80dp"
+            android:layout_marginTop="31.20dp"
+            android:layout_marginBottom="31.20dp"
+            android:src="@drawable/pdf"
+            android:background="@color/white"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20.80dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/chapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20.80dp"
+                android:gravity="center"
+                android:text="Loading..."
+                android:textColor="@color/white"
+                android:textSize="19.50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Mathematics Class 10th"
+                android:textColor="@color/white"
+                android:textSize="13.00dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

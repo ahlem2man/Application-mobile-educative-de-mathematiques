@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5">
+    <TextView
+        android:id="@+id/titleText"
+        android:text="Sign In"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="#000000"
+        android:textColorHint="#9E9E9E" />
+    <Button
+        android:id="@+id/loginBtn"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
