@@ -1,14 +1,26 @@
-# Application-mobile-ducative-de-math-matiques-
-Introduction :
-Mathematics Class Project est une application mobile éducative dédiée aux cours de mathématiques, permettant :
-·L'affichage des chapitres (via Firestore)
-·Des rappels d'étude via notifications
-·L'intégration de citations motivantes (ZenQuotes API)
-·Une interface moderne avec une page de démarrage (Splash)
-Technologies utilisées : 
--Java Android
-Firebase (Authentication + Firestore)
--Volley pour les requêtes API
--XML pour le design
--Notifications Android
--API ZenQuotes
+📘 Introduction
+
+Mathematics Class Project est une application mobile éducative dédiée à l’apprentissage des mathématiques.
+Elle propose plusieurs fonctionnalités pour faciliter l’étude et rendre l’expérience plus interactive :
+
+📂 Affichage des chapitres (à partir de Firestore)
+
+🔔 Rappels d’étude via notifications programmées
+
+💬 Intégration de citations motivantes (API ZenQuotes)
+
+🎨 Interface moderne avec Splash Screen animé
+
+🛠 Technologies utilisées
+
+Java Android
+
+Firebase Authentication + Firestore
+
+Volley (consommation d’API)
+
+XML (UI Design)
+
+Notifications Android
+
+ZenQuotes API
